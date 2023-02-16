@@ -23,8 +23,6 @@ endif()
 
 option(SKIP_TESTS_BUILD "Skip tests build" ON)
 
-include_directories(FTP)
-
 add_subdirectory(FTP)
 
 if(NOT SKIP_TESTS_BUILD)
